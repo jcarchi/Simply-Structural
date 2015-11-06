@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="dist/css/bootstrap.css", rel="stylesheet">
+  <link rel="stylesheet" href = "dist/css/bootstrap.css">
+  <link rel="stylesheet" href = "Structural_styleWbeams.css">
+    <title></title>
+</head>
+<body>
+<div class="nav">
+  <div class="container">
+    <ul class="pull-left" id="pull">
+      <li class =  "arrowDown"><a href="#">About us</a></li>
+    </ul>
+    <ul class="pull-right">
+      <li><a href="#">Login</a></li>
+    </ul>
+  </div>
+</div>
+<div class = "jumbotron">
+  <div class = "container">
+    <img src = "2D_Beam_Simple_RXNS.JPG" alt = "HTML5 Icon">
+  </div>
+</div>
+<div class = "learnmore">
+  <div class ="container" id = "area">
+    <ul>
+      <form>
+        <table width = "450px">
+          <tr>
+            <td valign = "top">
+              <label for = "Load_amount"> Load (kips)</label>
+            </td>
+            <td valign = "top">
+              <input type = "text" name = "Load_amount" maxlength = "50" size = "30">
+            </td>
+          </tr>
+          <tr>
+            <td valign = "top">
+              <label for = "RX_L"> RX_L</label>
+            </td>
+            <td >
+              <select name = "Reactions">
+                <option> Pin</option>
+                <option>Roller</option>
+                <option>Fixed</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td valign = "top">
+              <label for = "RX_R"> RX_R</label>
+            </td>
+            <td >
+              <select name = "Reactions">
+                <option> Pin</option>
+                <option>Roller</option>
+                <option>Fixed</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td valign = "top">
+              <label for = "length"> Length</label>
+            </td>
+            <td valign = "top">
+              <input type = "text" name = "Load_amount" maxlength = "50" size = "30">
+            </td>
+          </tr>
+
+        </table>
+
+      </form>
+    </ul>
+    <ul>
+      <button id = "addLoad" class = "myButton"> Add Load</button>
+    </ul>
+
+  </div>
+</div>
+<script src = "jquery-2.1.4.js"></script>
+<script src = "jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+<script src = "Structural_WBeams.js"></script>
+</body>
+</html>
